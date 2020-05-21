@@ -5,6 +5,7 @@
   
 ## LeastSquaresRegressionRegularized.m - Implementation of Regularized Logistic Regression (Ridge Regression)
   main2.m - Learns a regularized LSR; uses five-fold cross validation on different values of λ to find optimal
+  
   RegCalculator.m - Helper for regularized LSR
   
 ###### Helper Functions  
