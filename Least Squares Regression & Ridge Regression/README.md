@@ -1,8 +1,8 @@
 README
-LogisticRegression.m - Implementation of (Unregularized) Logistic Regression Classifier
-  main.m - Learns a logistic classifier on different sized training samples (learning curve)
-LogisticRegressionL2.m - Implementation of L2 Regularized Logistic Regression Classifier
-  main2.m - Learns an L2 regularized classifier; uses five-fold cross validation on different values of λ to find optimal
-  RegCalculator.m - Helper for L2
+LeastSquaresRegression.m - Implementation of (Unregularized) Least Squares Regression
+  main_LSR1.m - Learns an unregularized LSR on different sized training samples (learning curve)
+LeastSquaresRegressionRegularized.m - Implementation of Regularized Logistic Regression (Ridge Regression)
+  main2.m - Learns a regularized LSR; uses five-fold cross validation on different values of λ to find optimal
+  RegCalculator.m - Helper for regularized LSR
 yHatCalculator.m - Helper to find yhat values (guesses of classifier)
-classification_error.m - Finds 0-1 error between predicted and actual y values
+mean_squared_error.m - Finds msq error between predicted and actual y values
